@@ -1,1 +1,29 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+    --black-color: #000;
+    --grafit-color:#1a1a1a;
+    --red-color: #FF0000;
+    --green-color:#00cc14;
+    --green-n-color: #007f0c;
+    --green-oliv-color: #004306;
+    --white-color:#fff;
+    --silver-color:#e7e7e7;
+    --grey-color:#d3d3d3;
+    --page-font-inter: "Inter", Arial, sans-serif;
+    --page-font-PressStart2P: "PressStart2P", Arial, sans-serif;
+    --text-weight: 465;
+    --title-weight: 785;
+    --text-shadow: var(--green-color);
+    --background-content: var(--white-color);
+    --font-color: var(--black-color);
+    --background-image: repeating-linear-gradient(to right, #d3d3d3 0 2px, transparent 2px 4px),
+    repeating-linear-gradient(#d3d3d3 0 2px, transparent 2px 4px),
+    linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
+    --frame-color: var(--black-color);
+    --frame: 2px solid var(--black-color);
+    --heart-hover: var(--black-color);
+    --heart-contour-color: var(--green-color);
+    --heart-active-color: var(--red-color);
+    --batton-animation-color: var(--black-color);
+    --button-text: var(--white-color);
+}

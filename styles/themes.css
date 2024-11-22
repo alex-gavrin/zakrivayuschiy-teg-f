@@ -4,3 +4,66 @@
 ✦ theme-light — класс светлой темы
 ✦ не забудьте описать стили для изменения темы через медизапрос пользовательских предпочтений
 */
+
+:root.theme-light {
+    --background-content: var(--white-color);
+    --font-color: var(--black-color);
+    --background-image: repeating-linear-gradient(to right, var(--grey-color) 0 2px, transparent 2px 4px),
+    repeating-linear-gradient(var(--grey-color) 0 2px, transparent 2px 4px),
+    linear-gradient(to bottom, var(--silver-color) 0.01%, var(--grafit-color));
+    --frame: 2px solid var(--black-color);
+    --heart-hover: var(--black-color);
+    --button-text: var(--white-color);
+    --batton-animation-color: var(--black-color);
+    --text-shadow: var(--white-color);
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --background-content: var(--white-color);
+        --font-color: var(--black-color);
+        --background-image: repeating-linear-gradient(to right, var(--grey-color) 0 2px, transparent 2px 4px),
+        repeating-linear-gradient(var(--grey-color) 0 2px, transparent 2px 4px),
+        linear-gradient(to bottom, var(--silver-color) 0.01%, var(--grafit-color));
+        --frame: 2px solid var(--black-color);
+        --heart-hover: var(--black-color);
+        --button-text: var(--white-color);
+        --batton-animation-color: var(--black-color);
+        --text-shadow: var(--white-color);
+    }
+}
+
+
+
+:root.theme-dark {
+    --background-content: var(--black-color);
+    --font-color: var(--green-color);
+    --background-image: repeating-linear-gradient(to right, var(--black-color) 0 2px, transparent 2px 4px),
+    repeating-linear-gradient(var(--black-color) 0 2px, transparent 2px 4px),
+    linear-gradient(to bottom, var(--green-n-color) 0.01%, var(--green-oliv-color));
+    --frame: 2px solid var(--green-color);
+    --heart-hover: var(--green-color);
+    --button-text: var(--green-color);
+    --batton-animation-color: var(--green-color);
+    --text-shadow: var(--black-color);
+    --title-weight: 785;
+    --text-weight: 465;
+}
+
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background-content: var(--black-color);
+        --font-color: var(--green-color);
+        --background-image: repeating-linear-gradient(to right, var(--black-color) 0 2px, transparent 2px 4px),
+        repeating-linear-gradient(var(--black-color) 0 2px, transparent 2px 4px),
+        linear-gradient(to bottom, var(--green-n-color) 0.01%, var(--green-oliv-color));
+        --frame: 2px solid var(--green-color);
+        --heart-hover: var(--green-color);
+        --button-text: var(--green-color);
+        --batton-animation-color: var(--green-color);
+        --text-shadow: var(--black-color);
+        --title-weight: 785;
+        --text-weight: 465;
+    }
+}
