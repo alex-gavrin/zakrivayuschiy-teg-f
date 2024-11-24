@@ -11,6 +11,8 @@
     --grey-color:#d3d3d3;
     --page-font-inter: "Inter", Arial, sans-serif;
     --page-font-PressStart2P: "PressStart2P", Arial, sans-serif;
+    --main-font: "Inter", Arial, sans-serif;
+    --accent-font: "PressStart2P", fantasy, sans-serif;
     --text-weight: 465;
     --title-weight: 785;
     --text-shadow: var(--green-color);
@@ -24,6 +26,7 @@
     --heart-hover: var(--black-color);
     --heart-contour-color: var(--green-color);
     --heart-active-color: var(--red-color);
-    --batton-animation-color: var(--black-color);
+    --button-animation-color: var(--black-color);
     --button-text: var(--white-color);
+    --floppy-size: 21px;
 }
