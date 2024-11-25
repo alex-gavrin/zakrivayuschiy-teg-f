@@ -16,10 +16,10 @@
 
 @keyframes indicator {
 	from {
-		inset-inline-start: -14px;
+		inset-inline-start: -22px;
 	}
 	to {
-		inset-inline-start: -10px;
+		inset-inline-start: -18px;
 	}
 }
 

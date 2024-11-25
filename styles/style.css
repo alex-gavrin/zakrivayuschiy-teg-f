@@ -27,8 +27,8 @@
 }
 
 .header {
-  margin-top: 102px;
-  margin-bottom: 105px;
+  margin-top: 100px;
+  margin-bottom: 100px;
   display: grid;
   align-items: center;
   justify-items: center;
@@ -220,8 +220,8 @@ button:focus-visible {
     1px 0 var(--text-shadow), 
     0 -1px var(--text-shadow);
   mix-blend-mode: hard-light;
-  inset-inline-end: 11px;
-  inset-block-start: 22px;
+  inset-inline-end: 25px;
+  inset-block-start: 27px;
 }
 
 @supports((text-stroke: 1px var(--text-shadow)) or (-webkit-text-stroke: 1px var(--text-shadow))) {
@@ -501,8 +501,17 @@ button:focus-visible {
     padding-inline: 5px;
     max-inline-size: 306px;
   }
+  .save_btn {
+    padding-block: 52px 100px;
+  }
 
   :root {
     --floppy-size: 28px;
-  }  
+  }
+  
+  .card__image-text {
+    inset-inline-end: 12px;
+    inset-block-start: 25px;
+  }
+  
 }  
